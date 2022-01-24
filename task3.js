@@ -4,8 +4,12 @@
 // Returns a boolean
 function areBalanced(str) {}
 
-console.assert(areBalanced("{[()]}"), "Test 1 failed");
-console.assert(!areBalanced("{[(])}"), "Test 2 failed");
-console.assert(areBalanced("{{[[(())]]}}"), "Test 3 failed");
-console.assert(!areBalanced("{[()((]))])}"), "Test 4 failed");
-console.assert(areBalanced("{[][]}()(([[[]]{}]))"), "Test 5 failed");
+function runTests() {
+   console.assert(areBalanced("{[()]}"), "Test 1 failed");
+   console.assert(!areBalanced("{[(])}"), "Test 2 failed");
+   console.assert(areBalanced("{{[[(())]]}}"), "Test 3 failed");
+   console.assert(!areBalanced("{[()((]))])}"), "Test 4 failed");
+   console.assert(areBalanced("{[][]}()(([[[]]{}]))"), "Test 5 failed");
+}
+
+runTests();
