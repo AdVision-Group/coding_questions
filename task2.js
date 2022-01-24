@@ -1,5 +1,6 @@
 // Write a function that checks whether a number is prime
 
+// Returns a boolean
 function isPrime(n) {}
 
 console.assert(!isPrime(1), "Number 1 is not prime");

@@ -1,5 +1,6 @@
 // Write a function that removes duplicates from an array
 
+// Returns the modified array
 function removeDuplicates(array) {}
 
 function areArraysEqual(array1, array2) {
