@@ -1,14 +1,6 @@
 // Write a function that checks whether a number is prime
 
-function isPrime(n) {
-   if (n < 2) return false;
-   for (let i = 2; i <= Math.sqrt(n); i++) {
-      if (n % i == 0) {
-         return false;
-      }
-   }
-   return true;
-}
+function isPrime(n) {}
 
 console.assert(!isPrime(1), "Number 1 is not prime");
 console.assert(isPrime(2), "Number 2 is prime");

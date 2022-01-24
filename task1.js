@@ -1,8 +1,6 @@
 // Write a function that removes duplicates from an array
 
-function removeDuplicates(array) {
-   return [new Array(...new Set(array))];
-}
+function removeDuplicates(array) {}
 
 function areArraysEqual(array1, array2) {
    array1.sort();
